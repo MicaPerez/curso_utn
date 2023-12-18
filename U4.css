@@ -1,0 +1,19 @@
+h1{
+	font-size: 30px;
+	background-color: aquamarine;
+	text-align: center;
+}
+
+h2, h3, h4, h5, h6{
+	color: mediumaquamarine;
+	text-decoration: underline;
+	background-color: azure;
+	text-align: center;
+}
+
+p, ol, li{
+	font-family: sans-serif;
+	text-align: center;
+	color: palevioletred;
+	font-weight: 700;
+}
