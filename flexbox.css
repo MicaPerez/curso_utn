@@ -1,0 +1,47 @@
+.contenedor1{
+	background-color: lightgray;
+	margin-top: 10px;
+	display:flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+}
+
+.contenedor2{
+	background-color: lightgray;
+	margin-top: 10px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.contenedor3{
+	background-color: lightgray;
+	height: 300px;
+	width: 300px;
+	margin-top: 10px;
+	display: inline-flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: flex-end;
+}
+
+
+.color1{
+	background-color: red;
+}
+
+.color2{
+	background-color: blue;
+}
+
+.color3{
+	background-color:  green;
+}
+
+.section{
+	width: 100px;
+	height: 100px;
+}
+
+
+
