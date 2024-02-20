@@ -1,0 +1,58 @@
+body{
+	margin: 5px;
+	box-sizing: border-box;
+}
+
+
+.titulo{
+	background-color: lightcoral;
+	margin: 0;
+	text-align: center;
+}
+
+nav ul{
+	list-style-type: none;
+	background-color: lightgray;
+}
+
+nav ul li{
+	text-decoration: none;
+}
+
+
+.subtitulo{
+	background-color: lightpink;
+}
+
+@media (max-width: 800px){
+	.subtitulo{
+		text-align: center;
+	}
+}
+
+.texto{
+	background-color: lightgray;
+}
+
+@media (max-width: 800px){
+	.texto{
+		background-color: skyblue;
+	}
+}
+
+.info{
+	float: left;
+}
+
+img{
+	width: 350px;
+	height: 350px;
+}
+
+@media screen and (min-width: 100px) and (max-width:750px) {
+	img{
+		width: 200px;
+		height: 200px;
+	}
+}
+
