@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejercicio 1 - JS</title>
+</head>
+<body>
+	<div class="contenedor">
+		<div class="cuadrado rosa" onclick="cambiarFondo('pink')"></div>
+		<div class="cuadrado celeste" onclick="cambiarFondo('lightblue')"></div>
+		<div class="cuadrado gris" onclick="cambiarFondo('grey')"></div>
+	</div>
+
+	<style>
+		.contenedor{
+			display: flex;
+		}
+
+		.cuadrado{
+			width: 200px;
+			height: 200px;
+		}
+
+		.rosa{
+			background-color: pink;
+		}
+
+		.celeste{
+			background-color: lightblue;
+		}
+
+		.gris{
+			background-color: grey;
+		}
+	</style>
+
+	<script>
+		function cambiarFondo(color) {
+			document.querySelector('body').style.background = color;
+		}
+	</script>
+</body>
+</html>
